@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #EE0033; /* Chuyển màu nhấn chính (Tiêu đề, nút bấm) sang Đỏ đậm */
+  --color-secondary: #555555; /* Đổi màu xanh bạc hà sang Xám đậm cho các chi tiết phụ */
+  --color-accent: #E0E0E0; /* Đổi màu vàng sang Xám nhạt để tạo sự tinh tế */
+  --color-dark: #000000; /* Chữ và các nét viền dùng màu Đen tuyền */
+  --color-light: #F2F2F2; /* Màu nền phụ sang sắc xám rất nhạt */
+  --color-card-bg: #FFFFFF; /* Giữ nguyên nền form nhập liệu là Trắng */
+}
+
+body {
+  background-color: #F2F2F2; /* Đổi màu nền ngoài cùng sang xám nhạt để làm nổi bật thẻ màu trắng bên trong */
+  color: var(--color-dark);
+  font-family: 'Sarabun', sans-serif; /* Chuẩn hóa toàn bộ phông chữ hệ thống */
+}
